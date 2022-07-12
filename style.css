@@ -60,14 +60,14 @@ button {
 
 .couchmax {
     position: absolute;
-    top: 47%;
-    right: 2%;
+    top: 49%;
+    right: 24%;
 }
 
 .appmax {
     position: absolute;
-    top: 25%;
-    right: 38%;
+    top: 27%;
+    right: 44%;
 }
 
 main {
@@ -256,6 +256,36 @@ input {
     width: 95%;
 }
 
+@media screen and (max-width:1440px) {
+    .couch {
+        position: absolute;
+        top: 47%;
+        right: 4%;
+    }
+
+    .app {
+        position: absolute;
+        top: 25%;
+        right: 39%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .couch {
+        width: 82%;
+        position: absolute;
+        top: 65%;
+        right: 10%;
+    }
+
+    .app {
+        width: 30%;
+        position: absolute;
+        top: 25%;
+        right: 35%;
+    }
+}
+
 @media screen and (max-width:768px) {
     .logo {
         width: 40%;
@@ -277,17 +307,17 @@ input {
     }
 
     .couch {
-        width: 70%;
+        width: 75%;
         position: absolute;
-        top: 77%;
-        right: 15%;
+        top: 76%;
+        right: 13%;
     }
 
     .app {
-        width: 50%;
+        width: 37%;
         position: absolute;
-        top: 5%;
-        right: 25%;
+        top: 28%;
+        right: 31%;
     }
 
     main {
@@ -348,6 +378,7 @@ input {
 
     .head2 {
         color: rgb(236, 160, 18);
+        padding-top: 5%;
     }
 
     .p2 {
@@ -489,18 +520,19 @@ input {
 
 
 }
+
 @media screen and (max-width:425px) {
     .couch {
-        width: 70%;
+        width: 75%;
         position: absolute;
         top: 87%;
-        right: 15%;
+        right: 13%;
     }
 
     .app {
-        width: 50%;
+        width: 48%;
         position: absolute;
-        top: 45%;
+        top: 47%;
         right: 25%;
     }
 }
