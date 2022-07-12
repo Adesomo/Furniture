@@ -1,0 +1,540 @@
+* {
+    margin: auto;
+}
+
+body {
+    font-family: serif;
+}
+
+header {
+    background-color: rgb(255, 182, 45);
+    position: relative;
+    height: 700px;
+}
+
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 2%;
+}
+
+button {
+    box-shadow: 0 5px 0 0 hsla(0, 50%, 50%, 0.1);
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    margin-left: -5%;
+}
+
+
+.red {
+    background-color: red;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    border: solid red;
+    margin-right: -5%;
+
+}
+
+.black {
+    background-color: black;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+    border: solid black;
+
+}
+
+.head i {
+    display: none;
+}
+
+.couchmax {
+    position: absolute;
+    top: 47%;
+    right: 2%;
+}
+
+.appmax {
+    position: absolute;
+    top: 25%;
+    right: 38%;
+}
+
+main {
+    display: block;
+}
+
+.btndiv {
+    margin: 13% 40%;
+}
+
+.download {
+    background-color: rgb(236, 160, 18);
+    border: solid rgb(236, 160, 18);
+    border-radius: 5px;
+    padding: 3%;
+    margin: auto;
+    width: 100%;
+
+
+}
+
+.dotflex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.actionmax {
+    text-align: center;
+    width: 20%;
+}
+
+.icon {
+    border: solid rgb(236, 160, 18) 5px;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.sect2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2% 30%;
+    margin-top: 10%;
+}
+
+.head2 {
+    color: rgb(236, 160, 18);
+}
+
+.p2max {
+    padding: 5% 5% 5% 5%;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 0 10% 0;
+}
+
+.image {
+    max-width: 15%;
+    max-height: 15%;
+    background-color: white;
+    padding: 5% 3% 5% 3%;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagedisney {
+    max-width: 15%;
+    max-height: 15%;
+    background-color: white;
+    margin: 2%;
+    padding: 3% 2% 3% 3%;
+    border-radius: 5px;
+}
+
+.padverizon {
+    padding: 8% 3% 8% 3%;
+}
+
+.sect3 {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.s3pt1 {
+    order: 2;
+}
+
+.s3pt2 {
+    width: 30%;
+    order: 1;
+    margin-left: 10%;
+}
+
+.table {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.head3 {
+    margin-top: 5%;
+}
+
+.p3 {
+    margin-top: 5%;
+}
+
+.sign {
+    margin-top: 5%;
+    background-color: rgb(236, 160, 18);
+    padding: 2%;
+    text-align: center;
+    border: solid rgb(236, 160, 18);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sect4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pt1 {
+    width: 30%;
+    margin-right: -20%;
+}
+
+
+.lamp {
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    width: 100%;
+}
+
+.downloads {
+    background-color: rgb(236, 160, 18);
+    border: solid rgb(236, 160, 18);
+    border-radius: 5px;
+    padding: 2%;
+    margin: auto;
+    width: 50%;
+}
+
+.appmin {
+    margin-top: 10%;
+    width: 50%;
+}
+
+.pt2 {
+    width: 30%;
+}
+
+.tableform {
+    margin-top: 30%;
+    padding: 5%;
+    border: solid black 3px;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-bottom: 5%;
+}
+
+label {
+    font-size: smaller;
+    font-weight: bold;
+    padding: 3%;
+}
+
+input {
+    border: solid rgb(236, 160, 18) 3px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.text {
+    margin-top: 10%;
+    border: solid rgb(236, 160, 18) 3px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+@media screen and (max-width:768px) {
+    .logo {
+        width: 40%;
+        margin-left: 2%;
+
+    }
+
+    .head a {
+        display: none;
+    }
+
+    .head button {
+        display: none;
+    }
+
+    .head i {
+        float: right;
+        display: block;
+    }
+
+    .couch {
+        width: 70%;
+        position: absolute;
+        top: 77%;
+        right: 15%;
+    }
+
+    .app {
+        width: 50%;
+        position: absolute;
+        top: 5%;
+        right: 25%;
+    }
+
+    main {
+        display: block;
+    }
+
+    .sect1 {
+        margin: 20%;
+    }
+
+    .btndiv {
+        margin: auto;
+    }
+
+    .download {
+        background-color: rgb(236, 160, 18);
+        border: solid rgb(236, 160, 18);
+        border-radius: 5px;
+        padding: 5%;
+        margin: auto;
+        width: 100%;
+    }
+
+    button {
+        box-shadow: 0 5px 0 0 hsla(0, 50%, 50%, 0.1);
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .action {
+        padding: 10%;
+        text-align: center;
+    }
+
+    .actionmax {
+        width: auto;
+    }
+
+    .fa-key {
+        margin-top: 30%;
+    }
+
+    .icon {
+        border: solid rgb(236, 160, 18) 5px;
+        border-radius: 50%;
+        padding: 5%;
+    }
+
+    .sect2 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0;
+        margin-top: auto;
+    }
+
+    .head2 {
+        color: rgb(236, 160, 18);
+    }
+
+    .p2 {
+        padding: 10% 5% 10% 5%;
+    }
+
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10% 0 10% 0;
+    }
+
+    .image {
+        max-width: 40%;
+        max-height: 40%;
+        background-color: white;
+        padding: 5% 3% 5% 3%;
+        margin: auto;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .imagedisney {
+        max-width: 40%;
+        max-height: 40%;
+        background-color: white;
+        margin: 2%;
+        padding: 0 2% 0 3%;
+        border-radius: 5px;
+    }
+
+    .padverizon {
+        padding: 14% 3% 14% 3%;
+    }
+
+    .texas {
+        margin-top: 4%;
+    }
+
+    .sect3 {
+        display: block;
+        margin: 5%;
+    }
+
+    .s3pt2 {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .table {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .head3 {
+        margin-top: 5%;
+    }
+
+    .p3 {
+        margin-top: 5%;
+    }
+
+    .sign {
+        margin-top: 5%;
+        background-color: rgb(236, 160, 18);
+        padding: 3%;
+        text-align: center;
+        border: solid rgb(236, 160, 18);
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .sect4 {
+        display: block;
+    }
+
+    .pt1 {
+        margin: 20%;
+        width: auto;
+    }
+
+
+    .lamp {
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        width: 100%;
+    }
+
+    .downloads {
+        background-color: rgb(236, 160, 18);
+        border: solid rgb(236, 160, 18);
+        border-radius: 5px;
+        padding: 5%;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .appmin {
+        display: none;
+    }
+
+    .pt2 {
+        margin: 10%;
+        width: auto;
+    }
+
+    .tableform {
+        margin-top: 30%;
+        padding: 5%;
+        border: solid black 3px;
+        border-radius: 5px;
+    }
+
+    .contact {
+        margin-bottom: 5%;
+    }
+
+    label {
+        font-size: smaller;
+        font-weight: bold;
+        padding: 3%;
+    }
+
+    input {
+        border: solid rgb(236, 160, 18) 3px;
+        border-radius: 5px;
+        width: 95%;
+    }
+
+    .text {
+        margin-top: 10%;
+        border: solid rgb(236, 160, 18) 3px;
+        border-radius: 5px;
+        width: 95%;
+    }
+
+
+}
+@media screen and (max-width:425px) {
+    .couch {
+        width: 70%;
+        position: absolute;
+        top: 87%;
+        right: 15%;
+    }
+
+    .app {
+        width: 50%;
+        position: absolute;
+        top: 45%;
+        right: 25%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .couch {
+        width: 70%;
+        position: absolute;
+        top: 89%;
+        right: 15%;
+    }
+
+    .app {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        right: 25%;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .couch {
+        width: 70%;
+        position: absolute;
+        top: 91%;
+        right: 15%;
+    }
+
+    .app {
+        width: 50%;
+        position: absolute;
+        top: 58%;
+        right: 25%;
+    }
+
+}
